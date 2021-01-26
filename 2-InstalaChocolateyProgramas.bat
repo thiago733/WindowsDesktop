@@ -69,3 +69,6 @@ choco install logitech-options -y
 
 ECHO -- MicrosoftWindowsTerminal
 choco install microsoft-windows-terminal -y
+
+ECHO -- Notion
+choco install notion -y
