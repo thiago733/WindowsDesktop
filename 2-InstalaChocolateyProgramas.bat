@@ -19,8 +19,8 @@ choco upgrade microsoft-edge -y
 ECHO --Atualiza Chrome
 choco upgrade googlechrome -y
 
-ECHO --Atualiza slack
-choco upgrade slack -y
+ECHO --Atualiza Discord
+choco upgrade Discord -y
 
 ECHO --Atualiza file stream
 choco upgrade google-drive-file-stream -y
@@ -60,3 +60,12 @@ choco install sql-server-management-studio -y
 
 ECHO -- Instala Office 365
 choco install office365business -y
+
+ECHO -- Instala AzureStorageManager
+choco install microsoftazurestorageexplorer -y
+
+ECHO -- Instala LogitechOptions
+choco install logitech-options -y
+
+ECHO -- MicrosoftWindowsTerminal
+choco install microsoft-windows-terminal -y
