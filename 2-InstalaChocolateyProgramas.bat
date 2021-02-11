@@ -72,3 +72,15 @@ choco install microsoft-windows-terminal -y
 
 ECHO -- Notion
 choco install notion -y
+
+ECHO -- DockerMachine
+choco install docker-machine -y
+
+ECHO -- TodoIst
+choco install todoist -y
+
+ECHO -- Telegram
+choco install telegram -y
+
+ECHO -- PowerToys
+choco install PowerToys -y
